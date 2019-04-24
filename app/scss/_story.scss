@@ -1,0 +1,52 @@
+.story{
+    padding: 70px 0 60px;
+}
+.story__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 72px;
+}
+.story__info{
+    max-width: 540px;
+}
+.story__img{
+    padding-left: 62px;
+}
+.story__title{
+    font-family: $play;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: 1.1px;
+    color: #413d4b;
+    margin-bottom: 20px;
+}
+.story__text{
+    line-height: 22px;
+    font-size: 14px;
+    color: #413d4b;
+    letter-spacing: 0.42px;
+}
+.story__btn{
+    margin-top: 45px;
+}
+.watch{
+    background-image: url(../img/play-fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 553px;
+}
+.watch .container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 200px;
+}
+.watch__play{
+    margin-bottom: 25px;
+}
+.watch__text{
+    font-weight: 900;
+    font-size: 16px;
+    letter-spacing: 0.8;
+    color: #fff;
+}
