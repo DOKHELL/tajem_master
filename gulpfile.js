@@ -6,9 +6,6 @@ var gulp       = require('gulp'), // Подключаем Gulp
 	cssnano      = require('gulp-cssnano'), // Подключаем пакет для минификации CSS
 	rename       = require('gulp-rename'), // Подключаем библиотеку для переименования файлов
 	del          = require('del'), // Подключаем библиотеку для удаления файлов и папок
-	imagemin     = require('gulp-imagemin'), // Подключаем библиотеку для работы с изображениями
-	pngquant     = require('imagemin-pngquant'), // Подключаем библиотеку для работы с png
-	cache        = require('gulp-cache'), // Подключаем библиотеку кеширования
 	autoprefixer = require('gulp-autoprefixer');// Подключаем библиотеку для автоматического добавления префиксов
 
 gulp.task('scss', function() { // Создаем таск scss
@@ -107,4 +104,4 @@ gulp.task('watch', function() {
 	gulp.watch(['app/js/main.js', 'app/libs/**/*.js'], gulp.parallel('scripts')); // Наблюдение за главным JS файлом и за библиотеками
 });
 gulp.task('default', gulp.parallel('scss', 'browser-sync', 'watch','css-min'));
-gulp.task('build', gulp.parallel('prebuild', 'clean', 'img', 'scss', 'scripts'));
+gulp.task('build', gulp.parallel('prebuild', 'clean', 'scss', 'scripts'));

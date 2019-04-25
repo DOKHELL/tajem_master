@@ -1,0 +1,33 @@
+@import "vars";
+.img__works{
+    max-width: 1602px;
+    margin: 0 auto;
+    font-size: 0;
+    margin-bottom: 68px;
+}
+.works{
+    text-align: center;
+}
+.works__inner{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 65px;
+}
+.works__title{
+    font-family: $play;
+    font-weight: 700;
+    font-size: 22px;
+    color: #413d4b;
+    letter-spacing: 1.1px;
+}
+.works__all{
+    font-weight: 300;
+    letter-spacing: 0.7px;
+    color: #413d4b;
+    padding-right: 20px;
+}
+.works__btn{
+    text-align: center;
+    margin-bottom: 65px;
+    padding: 10px 26px;
+}
