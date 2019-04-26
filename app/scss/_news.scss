@@ -1,46 +1,46 @@
 @import "vars";
-.news__title{
-    font-family: $play;
-    font-weight: 700;
-    font-size: 22px;
-    letter-spacing: 1.1px;
-    color: #413d4b;
-    margin-bottom: 30px;
+.news__title {
+  font-family: $play;
+  font-weight: 700;
+  font-size: 22px;
+  letter-spacing: 1.1px;
+  color: #413d4b;
+  margin-bottom: 30px;
 }
 .news__form {
-    max-width: 460px;
+  max-width: 460px;
+  width: 100%;
+  input {
+    height: 45px;
+    padding: 20px 20px;
+    margin-bottom: 23px;
+  }
+  textarea {
+    height: 200px;
+    resize: none;
+    padding: 16px 20px;
+    margin-bottom: 12px;
+  }
+  input,
+  textarea {
     width: 100%;
-    input{
-        height: 45px;   
-        padding: 20px 20px; 
-        margin-bottom: 23px;
-    }
-    textarea{
-        height: 200px;
-        resize: none;
-        padding: 16px 20px;
-        margin-bottom: 12px;
-    }
-    input,textarea{
-        width: 100%;
-        border: 1px solid #e5e5e5;
-        outline: none;
-        color: #413d4b;
-        font-weight: 300;
-       
-    }
+    border: 1px solid #e5e5e5;
+    outline: none;
+    color: #413d4b;
+    font-weight: 300;
+  }
 }
-.news__partner{
-    img{
-        padding-top: 11px;
-    }
+.news__partner {
+  img {
+    padding-top: 11px;
+  }
 }
-.news__inner{
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 70px;
+.news__inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
 }
-.news__btn{
-    background: transparent;
-    padding: 10px 32px;
+.news__btn {
+  background: transparent;
+  padding: 10px 32px;
 }
